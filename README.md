@@ -8,6 +8,7 @@ repositories {
     maven {
         name = "TimeConqueror's Maven"
         url = "https://raw.github.com/TimeConqueror/maven/master"
+        artifactUrls 'https://github.com/TimeConqueror/maven/blob/master/' //fallback url
     }
 }
 ```
